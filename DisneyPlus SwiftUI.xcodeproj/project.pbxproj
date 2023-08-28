@@ -51,6 +51,9 @@
 		83AE4E442A9D32BA0099BF98 /* DisneyPlus SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				83AE4E562A9D338C0099BF98 /* APINetwork */,
+				83AE4E552A9D337A0099BF98 /* DataMock */,
+				83AE4E532A9D32F30099BF98 /* Core */,
 				83AE4E452A9D32BA0099BF98 /* DisneyPlus_SwiftUIApp.swift */,
 				83AE4E472A9D32BA0099BF98 /* ContentView.swift */,
 				83AE4E492A9D32BC0099BF98 /* Assets.xcassets */,
@@ -65,6 +68,59 @@
 				83AE4E4C2A9D32BC0099BF98 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83AE4E532A9D32F30099BF98 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				83AE4E542A9D33100099BF98 /* Authentication */,
+				83AE4E572A9D33AE0099BF98 /* Components */,
+				83AE4E582A9D33C50099BF98 /* MovieFeed */,
+				83AE4E592A9D33D90099BF98 /* Search */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		83AE4E542A9D33100099BF98 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		83AE4E552A9D337A0099BF98 /* DataMock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataMock;
+			sourceTree = "<group>";
+		};
+		83AE4E562A9D338C0099BF98 /* APINetwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APINetwork;
+			sourceTree = "<group>";
+		};
+		83AE4E572A9D33AE0099BF98 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		83AE4E582A9D33C50099BF98 /* MovieFeed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MovieFeed;
+			sourceTree = "<group>";
+		};
+		83AE4E592A9D33D90099BF98 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
