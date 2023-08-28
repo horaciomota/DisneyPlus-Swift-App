@@ -9,9 +9,8 @@ import SwiftUI
 
 struct movieCardView: View {
     var body: some View {
-        Rectangle()
-            .foregroundColor(.clear)
-            .background(Color.green)
+        Image("mulanCover")
+            .resizable()
             .frame(width: 120, height: 160)
             .cornerRadius(18)
     }
