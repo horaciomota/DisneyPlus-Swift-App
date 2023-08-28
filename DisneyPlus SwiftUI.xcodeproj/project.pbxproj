@@ -11,6 +11,8 @@
 		83AE4E482A9D32BA0099BF98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E472A9D32BA0099BF98 /* ContentView.swift */; };
 		83AE4E4A2A9D32BC0099BF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AE4E492A9D32BC0099BF98 /* Assets.xcassets */; };
 		83AE4E4D2A9D32BC0099BF98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AE4E4C2A9D32BC0099BF98 /* Preview Assets.xcassets */; };
+		83AE4E5B2A9D358A0099BF98 /* movieFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E5A2A9D358A0099BF98 /* movieFeedView.swift */; };
+		83AE4E5D2A9D399C0099BF98 /* movieCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E5C2A9D399C0099BF98 /* movieCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		83AE4E472A9D32BA0099BF98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83AE4E492A9D32BC0099BF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83AE4E4C2A9D32BC0099BF98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83AE4E5A2A9D358A0099BF98 /* movieFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieFeedView.swift; sourceTree = "<group>"; };
+		83AE4E5C2A9D399C0099BF98 /* movieCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		83AE4E572A9D33AE0099BF98 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				83AE4E5C2A9D399C0099BF98 /* movieCardView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 		83AE4E582A9D33C50099BF98 /* MovieFeed */ = {
 			isa = PBXGroup;
 			children = (
+				83AE4E5A2A9D358A0099BF98 /* movieFeedView.swift */,
 			);
 			path = MovieFeed;
 			sourceTree = "<group>";
@@ -195,6 +201,8 @@
 			files = (
 				83AE4E482A9D32BA0099BF98 /* ContentView.swift in Sources */,
 				83AE4E462A9D32BA0099BF98 /* DisneyPlus_SwiftUIApp.swift in Sources */,
+				83AE4E5B2A9D358A0099BF98 /* movieFeedView.swift in Sources */,
+				83AE4E5D2A9D399C0099BF98 /* movieCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
