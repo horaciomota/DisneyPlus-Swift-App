@@ -12,8 +12,7 @@ struct FirstTitleAndIconsView: View {
 
         HStack {
             Text("Everything")
-                .fontWeight(.bold)
-                .foregroundColor(.black)
+                .foregroundColor(.white)
                 .font(.largeTitle)
 
             Button(action: {
@@ -38,6 +37,8 @@ struct FirstTitleAndIconsView: View {
             
             
         }
+        .fontWeight(.bold)
+
 
 
 
