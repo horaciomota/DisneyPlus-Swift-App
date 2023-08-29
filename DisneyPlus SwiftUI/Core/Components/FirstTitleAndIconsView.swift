@@ -10,7 +10,7 @@ import SwiftUI
 struct FirstTitleAndIconsView: View {
     var body: some View {
 
-        HStack {
+        HStack (spacing: 24) {
             Text("Everything")
                 .foregroundColor(.white)
                 .font(.largeTitle)
@@ -21,8 +21,10 @@ struct FirstTitleAndIconsView: View {
                 Image(systemName: "magnifyingglass")
                     .foregroundColor(.white)
                     .padding()
-                    .background(Color.gray)
+                    .background(Color(red: 0.3, green: 0.3, blue: 0.3))
                     .clipShape(Circle())
+
+                
             }
 
             Button(action: {
@@ -32,10 +34,9 @@ struct FirstTitleAndIconsView: View {
             }
             .foregroundColor(.white)
             .padding()
-            .background(Color.gray)
+            .background(Color(red: 0.3, green: 0.3, blue: 0.3))
             .clipShape(Circle())
-            
-            
+        
         }
         .fontWeight(.bold)
         .padding(.horizontal, 8)

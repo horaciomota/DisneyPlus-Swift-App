@@ -19,7 +19,8 @@ struct movieOfTheDayCard: View {
                 
                 VStack {
                     Spacer()
-                    HStack {
+                    Spacer()
+                    HStack (spacing: 24) {
                         Button(action: {
                             print("Add to your list")
                         }) {
@@ -60,9 +61,17 @@ struct movieOfTheDayCard: View {
 
                         
                     }
+                    .padding(.top, 224)
+                    .fontWeight(.bold)
+                    .font(.headline)
+
+
                     Spacer()
 
+                    VStack {
                         FirstTitleAndIconsView()
+                    }
+                    .padding(.bottom, 36)
 
                 }
                 

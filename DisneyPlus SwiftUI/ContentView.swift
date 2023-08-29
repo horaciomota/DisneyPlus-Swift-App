@@ -14,8 +14,6 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     movieOfTheDayCard()
-                    FirstTitleAndIconsView()
-                        .padding(.trailing, 8)
                     movieFeedView()
 
                 }
