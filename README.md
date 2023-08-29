@@ -1,4 +1,4 @@
-#  Touchdown
+#  DISNEY + APP
 This app uses SwiftUI framework to develop a DisneyPlus App redesigned
 
 ## ℹ️  GETTING STARTED
