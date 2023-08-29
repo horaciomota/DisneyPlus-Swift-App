@@ -60,7 +60,6 @@ struct movieFeedView: View {
                 
                 
             }
-            .padding(.leading, 8)
             .foregroundColor(.gray)
             
 

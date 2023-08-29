@@ -14,7 +14,7 @@ struct FirstTitleAndIconsView: View {
             Text("Everything")
                 .foregroundColor(.white)
                 .font(.largeTitle)
-
+            Spacer()
             Button(action: {
                 print("Search")
             }) {
@@ -38,6 +38,7 @@ struct FirstTitleAndIconsView: View {
             
         }
         .fontWeight(.bold)
+        .padding(.horizontal, 8)
 
 
 

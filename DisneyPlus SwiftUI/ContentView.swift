@@ -11,11 +11,22 @@ struct ContentView: View {
     var body: some View {
         VStack (alignment: .leading) {
             
-            FirstTitleAndIconsView()
-            movieFeedView()
-            
+            ScrollView {
+                VStack {
+                    movieOfTheDayCard()
+                    FirstTitleAndIconsView()
+                        .padding(.trailing, 8)
+                    movieFeedView()
+
+                }
+            }
+            .ignoresSafeArea()
+
+
+
         }
         .background(Color.black)
+        
     }
 }
 

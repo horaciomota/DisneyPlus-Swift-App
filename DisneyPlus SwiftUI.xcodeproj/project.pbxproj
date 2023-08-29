@@ -14,6 +14,7 @@
 		83AE4E5B2A9D358A0099BF98 /* movieFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E5A2A9D358A0099BF98 /* movieFeedView.swift */; };
 		83AE4E5D2A9D399C0099BF98 /* movieCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E5C2A9D399C0099BF98 /* movieCardView.swift */; };
 		83AE4E5F2A9D44590099BF98 /* FirstTitleAndIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E5E2A9D44590099BF98 /* FirstTitleAndIconsView.swift */; };
+		83AE4E612A9E4D500099BF98 /* movieOfTheDayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E602A9E4D500099BF98 /* movieOfTheDayCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		83AE4E5A2A9D358A0099BF98 /* movieFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieFeedView.swift; sourceTree = "<group>"; };
 		83AE4E5C2A9D399C0099BF98 /* movieCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieCardView.swift; sourceTree = "<group>"; };
 		83AE4E5E2A9D44590099BF98 /* FirstTitleAndIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTitleAndIconsView.swift; sourceTree = "<group>"; };
+		83AE4E602A9E4D500099BF98 /* movieOfTheDayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieOfTheDayCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				83AE4E5C2A9D399C0099BF98 /* movieCardView.swift */,
 				83AE4E5E2A9D44590099BF98 /* FirstTitleAndIconsView.swift */,
+				83AE4E602A9E4D500099BF98 /* movieOfTheDayCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AE4E612A9E4D500099BF98 /* movieOfTheDayCard.swift in Sources */,
 				83AE4E482A9D32BA0099BF98 /* ContentView.swift in Sources */,
 				83AE4E462A9D32BA0099BF98 /* DisneyPlus_SwiftUIApp.swift in Sources */,
 				83AE4E5F2A9D44590099BF98 /* FirstTitleAndIconsView.swift in Sources */,
