@@ -22,7 +22,7 @@ struct movieFeedView: View {
                 ScrollView(.horizontal) {
                     HStack {
                         ForEach(1...10, id: \.self) { _ in
-                            movieCardView()
+                            MovieCardView()
                         }
                         
                     }
@@ -36,7 +36,7 @@ struct movieFeedView: View {
                 ScrollView(.horizontal) {
                     HStack {
                         ForEach(1...10, id: \.self) { _ in
-                            movieCardView()
+                            MovieCardView()
                             }
                                     
                         }
@@ -51,7 +51,7 @@ struct movieFeedView: View {
                     ScrollView(.horizontal) {
                         HStack {
                             ForEach(1...10, id: \.self) { _ in
-                                movieCardView()
+                                MovieCardView()
                                     }
                                                 
                                 }

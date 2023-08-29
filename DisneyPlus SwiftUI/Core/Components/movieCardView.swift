@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct movieCardView: View {
+struct MovieCardView: View {
     var body: some View {
         Image("mulanCover")
             .resizable()
@@ -19,6 +19,6 @@ struct movieCardView: View {
 
 struct movieCardView_Previews: PreviewProvider {
     static var previews: some View {
-        movieCardView()
+        MovieCardView()
     }
 }

@@ -15,6 +15,8 @@
 		83AE4E5D2A9D399C0099BF98 /* movieCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E5C2A9D399C0099BF98 /* movieCardView.swift */; };
 		83AE4E5F2A9D44590099BF98 /* FirstTitleAndIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E5E2A9D44590099BF98 /* FirstTitleAndIconsView.swift */; };
 		83AE4E612A9E4D500099BF98 /* movieOfTheDayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E602A9E4D500099BF98 /* movieOfTheDayCard.swift */; };
+		83AE4E652A9E65430099BF98 /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E642A9E65430099BF98 /* dataModel.swift */; };
+		83AE4E672A9E6F120099BF98 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E662A9E6F120099BF98 /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		83AE4E5C2A9D399C0099BF98 /* movieCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieCardView.swift; sourceTree = "<group>"; };
 		83AE4E5E2A9D44590099BF98 /* FirstTitleAndIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTitleAndIconsView.swift; sourceTree = "<group>"; };
 		83AE4E602A9E4D500099BF98 /* movieOfTheDayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieOfTheDayCard.swift; sourceTree = "<group>"; };
+		83AE4E642A9E65430099BF98 /* dataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
+		83AE4E662A9E6F120099BF98 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		83AE4E552A9D337A0099BF98 /* DataMock */ = {
 			isa = PBXGroup;
 			children = (
+				83AE4E642A9E65430099BF98 /* dataModel.swift */,
 			);
 			path = DataMock;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 		83AE4E562A9D338C0099BF98 /* APINetwork */ = {
 			isa = PBXGroup;
 			children = (
+				83AE4E662A9E6F120099BF98 /* ImageLoader.swift */,
 			);
 			path = APINetwork;
 			sourceTree = "<group>";
@@ -210,6 +216,8 @@
 				83AE4E462A9D32BA0099BF98 /* DisneyPlus_SwiftUIApp.swift in Sources */,
 				83AE4E5F2A9D44590099BF98 /* FirstTitleAndIconsView.swift in Sources */,
 				83AE4E5B2A9D358A0099BF98 /* movieFeedView.swift in Sources */,
+				83AE4E652A9E65430099BF98 /* dataModel.swift in Sources */,
+				83AE4E672A9E6F120099BF98 /* ImageLoader.swift in Sources */,
 				83AE4E5D2A9D399C0099BF98 /* movieCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
