@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8337A9542AB2366800D6225F /* movieListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8337A9532AB2366800D6225F /* movieListApi.swift */; };
 		83AE4E462A9D32BA0099BF98 /* DisneyPlus_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E452A9D32BA0099BF98 /* DisneyPlus_SwiftUIApp.swift */; };
 		83AE4E482A9D32BA0099BF98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE4E472A9D32BA0099BF98 /* ContentView.swift */; };
 		83AE4E4A2A9D32BC0099BF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AE4E492A9D32BC0099BF98 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8337A9532AB2366800D6225F /* movieListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieListApi.swift; sourceTree = "<group>"; };
 		83AE4E422A9D32BA0099BF98 /* DisneyPlus SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DisneyPlus SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AE4E452A9D32BA0099BF98 /* DisneyPlus_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyPlus_SwiftUIApp.swift; sourceTree = "<group>"; };
 		83AE4E472A9D32BA0099BF98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				83AE4E662A9E6F120099BF98 /* ImageLoader.swift */,
+				8337A9532AB2366800D6225F /* movieListApi.swift */,
 			);
 			path = APINetwork;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8337A9542AB2366800D6225F /* movieListApi.swift in Sources */,
 				83AE4E612A9E4D500099BF98 /* movieOfTheDayCard.swift in Sources */,
 				83AE4E482A9D32BA0099BF98 /* ContentView.swift in Sources */,
 				83AE4E462A9D32BA0099BF98 /* DisneyPlus_SwiftUIApp.swift in Sources */,
