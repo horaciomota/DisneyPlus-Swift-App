@@ -4,7 +4,7 @@ This app uses SwiftUI framework to develop a DisneyPlus App redesigned
 ## ℹ️  GETTING STARTED
 ### PREREQUISITES 
 - Swift 5.7+
-- Xcode 14.3.1+
+- Xcode 15.3.1+
 
 ### INSTALATION
 1. Open your terminal in location that you want save the project.
